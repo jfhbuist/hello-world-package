@@ -5,4 +5,3 @@ exclude =
     .venv,
     .pytest_cache
 max-line-length = 99
-extend-ignore = F401
