@@ -21,3 +21,8 @@ dependencies = [
 addopts = [
     "--import-mode=importlib",
 ]
+
+[tool.coverage.run]
+source = ["hello_world_package"]
+omit = ["*/__init__.py"]
+
