@@ -5,7 +5,7 @@ build-backend = "hatchling.build"
 [project]
 name = "hello-world-package"
 version = "0.1.0"
-license = {file = "LICENSE"}
+license = {file = "LICENSE.txt"}
 description = "An exercise in package structure"
 readme = "README.md"
 requires-python = ">=3.8"
