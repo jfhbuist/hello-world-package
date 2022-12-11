@@ -39,3 +39,8 @@ It can be uninstalled using:
 ```
 pip uninstall hello_world_package
 ```
+
+Deactivate virtual environment:
+```
+deactivate
+```
