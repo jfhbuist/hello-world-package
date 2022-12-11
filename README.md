@@ -3,10 +3,10 @@
 
 # hello-world-package
 
-This is a simple python package template.
+This is a simple python package template.  
 It uses pip for installation, flake8 for linting, pytest for testing, and coverage for monitoring test coverage.
 
-To use it, first create a virtual environment, and install flake8, pytest, and coverage using pip.
+To use it, first create a virtual environment, and install flake8, pytest, and coverage using pip.  
 The following works on Windows: 
 ```
 py -3 -m venv .venv
