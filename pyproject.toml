@@ -6,11 +6,10 @@ build-backend = "hatchling.build"
 name = "hello-world-package"
 version = "0.1.0"
 license = {file = "LICENSE.txt"}
-description = "An exercise in package structure"
+description = "A simple package template"
 readme = "README.md"
 requires-python = ">=3.8"
 dependencies = [
-    "matplotlib ~= 3.6.2",
     "numpy ~= 1.23.5"
 ]
 
