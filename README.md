@@ -7,6 +7,14 @@ This is a simple python package template.
 It uses pip for installation, flake8 for linting, pytest for testing, and coverage for monitoring test coverage.
 
 To use it, first create a virtual environment, and install flake8, pytest, and coverage using pip.
+The following works on Windows: 
+```
+py -3 -m venv .venv
+.venv\scripts\activate
+python -m pip install --upgrade pip
+pip install flake8 pytest coverage
+```
+
 Then, install the package, run it, and test it:
 ```
 pip install -e .
@@ -16,7 +24,7 @@ coverage run -m pytest
 coverage report
 ```
 
-If not developing, but just using the package, just do:
+If not developing, but only using the package, just do:
 ```
 pip install .
 python -m hello_world_package
