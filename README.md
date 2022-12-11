@@ -8,18 +8,26 @@ It uses pip for installation, flake8 for linting, pytest for testing, and covera
 
 To use it, first create a virtual environment, and install flake8, pytest, and coverage using pip.
 Then, install the package, run it, and test it:
-    pip install -e .
-    python -m hello_world_package
-    flake8
-    coverage run -m pytest
-    coverage report
+```
+pip install -e .
+python -m hello_world_package
+flake8
+coverage run -m pytest
+coverage report
+```
 
 If not developing, but just using the package, just do:
-    pip install .
-    python -m hello_world_package
+```
+pip install .
+python -m hello_world_package
+```
 
 The package will now be listed when running:
-    pip freeze
+```
+pip freeze
+```
 
 It can be uninstalled using:
-    pip uninstall hello_world_package
+```
+pip uninstall hello_world_package
+```
